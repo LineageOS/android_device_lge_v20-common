@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter g5 h830 h850,$(TARGET_DEVICE)),)
+ifneq ($(filter v20 h918 h910,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
@@ -95,6 +95,6 @@ $(WIDEVINE_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 ALL_DEFAULT_INSTALLED_MODULES += $(WIDEVINE_SYMLINKS)
 # END WIDEVINE Images
 
-include device/lge/g5-common/tftp.mk
+include device/lge/v20-common/tftp.mk
 
 endif

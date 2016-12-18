@@ -34,7 +34,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$CM_ROOT" true
 
 # Copyright headers and common guards
-write_headers "g5 h830 h850"
+write_headers "v20 h918 h910"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt
