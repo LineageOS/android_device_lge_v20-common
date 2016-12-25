@@ -420,6 +420,10 @@
     <bool name="config_ui_blur_enabled">true</bool>
     -->
 
+    <!-- Distance in pixels to offset the center of the screen -->
+    <integer name="config_offsetCenterX">0</integer>
+    <integer name="config_offsetCenterY">80</integer>
+
     <!-- SD card is hot-pluggable on this device -->
     <bool name="config_batterySdCardAccessibility">true</bool>
 
