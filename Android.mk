@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter v20 h918 h910,$(TARGET_DEVICE)),)
+ifneq ($(filter v20 h918 h910 ls997,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
