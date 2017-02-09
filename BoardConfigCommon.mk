@@ -18,5 +18,8 @@
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Display
+TARGET_USES_HWC2 := false
+
 # inherit from the proprietary version
 -include vendor/lge/v20-common/BoardConfigVendor.mk
