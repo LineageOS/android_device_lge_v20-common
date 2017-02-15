@@ -45,6 +45,9 @@ static struct light_state_t g_attention;
 char const*const LCD_FILE
         = "/sys/class/leds/lcd-backlight/brightness";
 
+char const*const LCD_EX_FILE
+        = "/sys/class/leds/lcd-backlight-ex/brightness";
+
 char const*const EMOTIONAL_BLINK_FILE
         = "/sys/class/lg_rgb_led/use_patterns/blink_patterns";
 
@@ -129,6 +132,7 @@ set_light_backlight(struct light_device_t* dev,
     int brightness = rgb_to_brightness(state);
     pthread_mutex_lock(&g_lock);
     err = write_int(LCD_FILE, brightness);
+    err = write_int(LCD_EX_FILE, brightness);
     pthread_mutex_unlock(&g_lock);
     return err;
 }
