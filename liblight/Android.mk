@@ -1,6 +1,4 @@
-#
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
+# Copyright 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,16 +11,14 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
 
-# inherit from common msm8996
--include device/lge/msm8996-common/BoardConfigCommon.mk
+LOCAL_PATH:= $(call my-dir)
+include $(CLEAR_VARS)
 
-# Display
-TARGET_USES_HWC2 := false
+LOCAL_SRC_FILES := lights.c
+LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_SHARED_LIBRARIES := liblog libcutils
+LOCAL_MODULE := lights.$(TARGET_BOARD_PLATFORM)
+LOCAL_MODULE_TAGS := optional
 
-# Lights
-TARGET_PROVIDES_LIBLIGHT := true
-
-# inherit from the proprietary version
--include vendor/lge/v20-common/BoardConfigVendor.mk
+include $(BUILD_SHARED_LIBRARY)
