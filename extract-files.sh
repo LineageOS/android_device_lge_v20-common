@@ -60,3 +60,6 @@ extract "$MY_DIR"/../$DEVICE/proprietary-files-qc.txt "$SRC"
 extract "$MY_DIR"/../$DEVICE/proprietary-files.txt "$SRC"
 
 "$MY_DIR"/setup-makefiles.sh
+
+# Extract the shared proprietary files
+"$CM_ROOT"/device/qcom/common/extractors/extract-files.sh "$SRC" "msm8996" "graphics"
