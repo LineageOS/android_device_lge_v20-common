@@ -1,2 +1,0 @@
-allow sensors sensors_data_file:file { open read write getattr };
-allow sensors sensors_data_file:dir { open read ioctl getattr };
