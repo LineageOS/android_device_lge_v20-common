@@ -18,6 +18,10 @@
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
+
 # Display
 TARGET_USES_HWC2 := false
 
