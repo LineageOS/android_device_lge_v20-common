@@ -15,18 +15,19 @@
 # limitations under the License.
 #
 
+DEVICE_COMMON_PATH := device/lge/v20-common
+
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
-
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
 
 # Display
 TARGET_USES_HWC2 := false
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
+
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_COMMON_PATH)/system.prop
 
 # inherit from the proprietary version
 -include vendor/lge/v20-common/BoardConfigVendor.mk

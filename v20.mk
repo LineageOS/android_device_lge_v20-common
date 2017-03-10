@@ -18,8 +18,14 @@
 # Inherit proprietary blobs
 $(call inherit-product-if-exists, vendor/lge/v20-common/v20-common-vendor.mk)
 
+$(call inherit-product, device/lge/msm8996-common/msm8996.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2560
+TARGET_SCREEN_WIDTH := 1440
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -27,6 +33,3 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_elsa.conf:system/etc/sensors/sensor_def_common.conf
-
-# Inherit msm8996-common
-$(call inherit-product, device/lge/msm8996-common/msm8996.mk)
