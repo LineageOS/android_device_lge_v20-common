@@ -29,7 +29,6 @@ vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/liblgae_main.so
 vendor/lib/liblgawb_main.so
-vendor/lib/libllvd_smore.so|438784bf9c9ddc943748c05c6b1bd301d17d523d
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_frame_algorithm.so
