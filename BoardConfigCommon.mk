@@ -20,9 +20,6 @@ DEVICE_COMMON_PATH := device/lge/v20-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
-# Display
-TARGET_USES_HWC2 := false
-
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
