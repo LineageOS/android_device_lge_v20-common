@@ -1,11 +1,11 @@
 # Audio ACBD
-etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/General_cal.acdb
-etc/acdbdata/Global_cal.acdb
-etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb
+vendor/etc/acdbdata/Bluetooth_cal.acdb
+vendor/etc/acdbdata/General_cal.acdb
+vendor/etc/acdbdata/Global_cal.acdb
+vendor/etc/acdbdata/Handset_cal.acdb
+vendor/etc/acdbdata/Hdmi_cal.acdb
+vendor/etc/acdbdata/Headset_cal.acdb
+vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
 bin/mm-qcamera-app
@@ -298,16 +298,15 @@ etc/camera/imx219_chromatix.xml
 etc/camera/imx298_chromatix_LG.xml
 
 # Fingerprint
-bin/fingerprintd
-bin/fpc_early_loader
-lib/hw/fingerprint.msm8996.so
-lib/lib_fpc_tac_shared.so
-lib/libfpfactory.so
-lib/libfpfactory_jni.so
-lib64/hw/fingerprint.msm8996.so
-lib64/lib_fpc_tac_shared.so
-lib64/libfpfactory.so
-lib64/libfpfactory_jni.so
+vendor/bin/fpc_early_loader
+-vendor/lib/hw/fingerprint.msm8996.so
+vendor/lib/lib_fpc_tac_shared.so
+vendor/lib/libfpfactory.so
+vendor/lib/libfpfactory_jni.so
+-vendor/lib64/hw/fingerprint.msm8996.so
+vendor/lib64/lib_fpc_tac_shared.so
+vendor/lib64/libfpfactory.so
+vendor/lib64/libfpfactory_jni.so
 
 # OIS firmware
 media/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:etc/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin
