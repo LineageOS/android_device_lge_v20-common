@@ -36,6 +36,10 @@ TARGET_SCREEN_WIDTH := 1440
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1-service
+
 # IR
 PRODUCT_PACKAGES += \
     consumerir.msm8996
