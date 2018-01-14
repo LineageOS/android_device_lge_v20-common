@@ -20,6 +20,9 @@ DEVICE_COMMON_PATH := device/lge/v20-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_COMMON_PATH)/manifest.xml
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
