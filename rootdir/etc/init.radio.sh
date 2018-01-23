@@ -35,6 +35,11 @@ start_copying_prebuilt_qcril_db()
 }
 
 #
+# Workaround required for the modem to function on some V20 devices
+#
+[ -e /system/bin/fix-h990-modem ] && /system/bin/fix-h990-modem -b
+
+#
 # Copy qcril.db if needed for RIL
 #
 start_copying_prebuilt_qcril_db
