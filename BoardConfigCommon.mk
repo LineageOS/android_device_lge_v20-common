@@ -26,8 +26,8 @@ DEVICE_MANIFEST_FILE += $(DEVICE_COMMON_PATH)/manifest.xml
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_COMMON_PATH)/system.prop
+# Treble
+PRODUCT_SHIPPING_API_LEVEL := 24
 
 # inherit from the proprietary version
 -include vendor/lge/v20-common/BoardConfigVendor.mk
