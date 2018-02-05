@@ -2,6 +2,98 @@
   "comments": [
     {
       "key": {
+        "uuid": "9940753b_9b4016d0",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2018-02-05T21:49:13Z",
+      "side": 1,
+      "message": "us996: matches",
+      "range": {
+        "startLine": 33,
+        "startChar": 34,
+        "endLine": 33,
+        "endChar": 42
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "06ae9936_d57a7781",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2018-02-05T21:49:13Z",
+      "side": 1,
+      "message": "us996: 1291845632",
+      "range": {
+        "startLine": 34,
+        "startChar": 35,
+        "endLine": 34,
+        "endChar": 44
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e225d6c0_2b4d966f",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2018-02-05T21:49:13Z",
+      "side": 1,
+      "message": "us996: matches",
+      "range": {
+        "startLine": 35,
+        "startChar": 37,
+        "endLine": 35,
+        "endChar": 45
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dded38b1_e0a34322",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2018-02-05T21:49:13Z",
+      "side": 1,
+      "message": "us996: matches",
+      "range": {
+        "startLine": 36,
+        "startChar": 38,
+        "endLine": 36,
+        "endChar": 46
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "f6933566_9e7bc5e1",
         "filename": "BoardConfigCommon.mk",
         "patchSetId": 1
@@ -13,6 +105,29 @@
       "writtenOn": "2018-02-05T20:37:12Z",
       "side": 1,
       "message": "Question is whether this (and the rest of these values) is the same for all V20 devices.  This was observed on a H990, is it the same for H918/VS995/US996/LS997?\n\nThe cache and recovery areas are slightly different from what had been in msm8996-common.",
+      "range": {
+        "startLine": 37,
+        "startChar": 36,
+        "endLine": 37,
+        "endChar": 46
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7bb2394c_7c552a87",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2018-02-05T21:49:13Z",
+      "side": 1,
+      "message": "us996: 6442450944",
       "range": {
         "startLine": 37,
         "startChar": 36,
