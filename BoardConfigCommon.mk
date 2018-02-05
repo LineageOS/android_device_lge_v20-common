@@ -29,5 +29,14 @@ TARGET_PROVIDES_LIBLIGHT := true
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_COMMON_PATH)/system.prop
 
+# Partitions
+BOARD_BOOTIMAGE_PARTITION_SIZE := 41943040
+BOARD_CACHEIMAGE_PARTITION_SIZE := 536870912
+BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 42467328
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5863636992
+#this is bogus, but will be formatted based on size, so underestimate is safe
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
+
 # inherit from the proprietary version
 -include vendor/lge/v20-common/BoardConfigVendor.mk
