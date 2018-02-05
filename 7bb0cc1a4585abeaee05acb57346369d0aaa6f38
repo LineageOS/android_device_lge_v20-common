@@ -48,6 +48,30 @@
     },
     {
       "key": {
+        "uuid": "80d1f8b8_69bdea75",
+        "filename": "BoardConfigCommon.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 18177
+      },
+      "writtenOn": "2018-02-05T23:23:34Z",
+      "side": 1,
+      "message": "So the value previously in msm8996-common was correct for the US996.  Then we need to find out whether H918/VS995/LS997 differ or are the same.  H918 is likely the same, but that isn\u0027t certain.\n\nIf every device /other/ than the H990 has a value of 1291845632, then using that as a default (but allowing for overriding) is sane; otherwise nuking it is appropriate.\n\nI\u0027ll ask on XDA (hrmm, those instructions are going to be a bit complex).",
+      "parentUuid": "06ae9936_d57a7781",
+      "range": {
+        "startLine": 34,
+        "startChar": 35,
+        "endLine": 34,
+        "endChar": 44
+      },
+      "revId": "7bb0cc1a4585abeaee05acb57346369d0aaa6f38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "e225d6c0_2b4d966f",
         "filename": "BoardConfigCommon.mk",
         "patchSetId": 1
