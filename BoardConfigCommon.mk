@@ -20,6 +20,10 @@ DEVICE_COMMON_PATH := device/lge/v20-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Camera
+TARGET_LD_SHIM_LIBS += \
+    /system/vendor/lib/libbwfocuspeaking.so|/system/vendor/lib/libshim_bwfocus.so
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_COMMON_PATH)/manifest.xml
 
