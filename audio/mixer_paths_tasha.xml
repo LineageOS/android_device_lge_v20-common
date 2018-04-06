@@ -2134,7 +2134,7 @@
 
     <path name="handset-mic">
         <path name="dmic1" />
-        <ctl name="DEC7 Volume" value="84" />
+        <ctl name="DEC7 Volume" value="99" />
     </path>
 
     <path name="handset-mic-db">
@@ -2591,6 +2591,8 @@
         <ctl name="ADC MUX8" value="DMIC" />
         <ctl name="DMIC MUX8" value="DMIC0" />
         <ctl name="SLIM_0_TX Channels" value="Two" />
+        <ctl name="DEC7 Volume" value="104" />
+        <ctl name="DEC8 Volume" value="104" />
     </path>
 
     <path name="dmic-endfire">
