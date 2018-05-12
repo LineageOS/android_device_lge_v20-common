@@ -35,7 +35,7 @@ fi
 setup_vendor "$DEVICE_COMMON" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and common guards
-write_headers "v20 h910 h918 us996 vs995 ls997"
+write_headers "$V20_DEVICE_LIST"
 
 # The standard blobs
 write_makefiles "$MY_DIR"/proprietary-files.txt
