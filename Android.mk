@@ -19,6 +19,7 @@ ifneq ($(filter v20 h910 h915 h918 h990 vs995 us996 ls997,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
-include $(call all-makefiles-under,$(LOCAL_PATH))
+subdir_makefiles=$(call first-makefiles-under,$(LOCAL_PATH))
+$(foreach mk,$(subdir_makefiles),$(info including $(mk) ...)$(eval include $(mk)))
 
 endif
