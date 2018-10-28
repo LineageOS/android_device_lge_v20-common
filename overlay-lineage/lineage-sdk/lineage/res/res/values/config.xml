@@ -31,4 +31,7 @@
          battery LEDs would set this config to 11. -->
     <integer name="config_deviceLightCapabilities">0</integer>
 
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
 </resources>
