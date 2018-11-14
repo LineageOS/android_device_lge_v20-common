@@ -43,7 +43,6 @@ vendor/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
-vendor/lib/libmmcamera_eeprom_checksum.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
