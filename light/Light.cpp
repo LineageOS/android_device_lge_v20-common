@@ -20,7 +20,12 @@
 
 #include "Light.h"
 
+#include <cmath>
 #include <fstream>
+
+#define LCD_BRIGHTNESS_MIN 35 // Matches config_screenBrightnessSettingMinimum
+#define LCD_BRIGHTNESS_MAX 255
+#define LCD_BRIGHTNESS_DELTA (LCD_BRIGHTNESS_MAX - LCD_BRIGHTNESS_MIN)
 
 namespace android {
 namespace hardware {
@@ -40,8 +45,17 @@ static void set(std::string path, int value) {
     set(path, std::to_string(value));
 }
 
+static uint32_t applyGamma(const uint32_t brightness){
+    if(brightness < LCD_BRIGHTNESS_MIN)
+        return LCD_BRIGHTNESS_MIN;
+
+    return LCD_BRIGHTNESS_MIN + LCD_BRIGHTNESS_DELTA *
+        cbrt(((double)brightness - LCD_BRIGHTNESS_MIN)/LCD_BRIGHTNESS_DELTA);
+}
+
 static void handleBacklight(const LightState& state) {
     uint32_t brightness = state.color & 0xFF;
+    brightness = applyGamma(brightness);
     set("/sys/class/leds/lcd-backlight/brightness", brightness);
     set("/sys/class/leds/lcd-backlight-ex/brightness", brightness);
 }
