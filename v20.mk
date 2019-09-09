@@ -16,6 +16,7 @@
 #
 
 # Inherit proprietary blobs
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 $(call inherit-product-if-exists, vendor/lge/v20-common/v20-common-vendor.mk)
 
 $(call inherit-product, device/lge/msm8996-common/msm8996.mk)
