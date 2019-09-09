@@ -41,8 +41,5 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 # SELinux policies
 BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
-# Treble
-PRODUCT_SHIPPING_API_LEVEL := 24
-
 # inherit from the proprietary version
 -include vendor/lge/v20-common/BoardConfigVendor.mk
