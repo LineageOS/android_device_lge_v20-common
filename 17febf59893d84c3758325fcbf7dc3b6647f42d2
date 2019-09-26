@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "83f20608_ac96f8e4",
+        "filename": "light/Light.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2019-09-26T11:44:00Z",
+      "side": 1,
+      "message": "This was intended to be 0, in particular applyGamma(0) must return 0 to shut down the panel",
+      "revId": "17febf59893d84c3758325fcbf7dc3b6647f42d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
