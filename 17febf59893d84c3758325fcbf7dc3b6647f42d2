@@ -16,6 +16,24 @@
       "revId": "17febf59893d84c3758325fcbf7dc3b6647f42d2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ecbecbca_8f37739d",
+        "filename": "light/Light.cpp",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 14737
+      },
+      "writtenOn": "2019-09-26T12:06:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "83f20608_ac96f8e4",
+      "revId": "17febf59893d84c3758325fcbf7dc3b6647f42d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
