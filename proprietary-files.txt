@@ -10,7 +10,7 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 # Camera
 vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
-vendor/lib/hw/camera.msm8996.so
+vendor/lib/hw/camera.msm8996.so|9763625f2a53e3e61b1ec550bfd96d1665b02cd8
 vendor/lib/libarcsoft_beauty_shot.so
 vendor/lib/libarcsoft_object_tracking.so
 vendor/lib/libbwfocuspeaking.so
