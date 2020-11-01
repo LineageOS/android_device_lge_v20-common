@@ -39,6 +39,8 @@ TARGET_SCREEN_WIDTH := 1440
 
 # Audio
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/audio/audio_platform_info-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info-quad_dac.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_tasha-quad_dac.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha-quad_dac.xml \
     $(LOCAL_PATH)/audio/mixer_paths_tasha.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tasha.xml
 
 # Camera
@@ -61,6 +63,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
 
+# Quad DAC
+PRODUCT_PACKAGES += \
+    quad_dac \
+    QuadDacTile
 
 # Sensors
 PRODUCT_COPY_FILES += \
