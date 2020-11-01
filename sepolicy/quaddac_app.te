@@ -1,0 +1,12 @@
+type quaddac_app, domain;
+
+app_domain(quaddac_app)
+
+allow quaddac_app system_app_data_file:dir create_dir_perms;
+allow quaddac_app system_app_data_file:file create_file_perms;
+
+allow quaddac_app {
+  activity_service
+  audioserver_service
+  quaddac_service
+}:service_manager find;
