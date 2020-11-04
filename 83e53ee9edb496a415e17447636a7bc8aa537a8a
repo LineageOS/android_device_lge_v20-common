@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "510698d1_39b9cf3b",
+        "filename": "QuadDacTile/Android.bp",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2020-11-04T09:50:52Z",
+      "side": 1,
+      "message": "one minor difference with the 17.1 commit",
+      "revId": "83e53ee9edb496a415e17447636a7bc8aa537a8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
