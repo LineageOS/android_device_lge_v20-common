@@ -23,7 +23,7 @@ android_app {
         ":quaddacservice_aidl",
     ],
 
-    platform_apis: true,
+    sdk_version: "current",
     product_specific: true,
     certificate: "platform",
     privileged: true,
@@ -54,6 +54,7 @@ cc_binary {
 
 aidl_interface {
     name: "quaddac_aidl_interface",
+    product_specific: true,
     unstable: true,
     local_include_dir: "aidl",
     srcs: [
