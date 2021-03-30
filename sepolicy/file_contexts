@@ -2,4 +2,4 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service.elsa		u:object_r:hal_light_default_exec:s0
 
 # Quad DAC
-/(product|system/product)/bin/quad_dac    u:object_r:quaddac_exec:s0
+/(system_ext|system/system_ext)/bin/quad_dac    u:object_r:quaddac_exec:s0
