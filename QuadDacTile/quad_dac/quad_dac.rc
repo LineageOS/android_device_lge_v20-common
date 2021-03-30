@@ -1,4 +1,4 @@
-service quad_dac /product/bin/quad_dac
+service quad_dac /system_ext/bin/quad_dac
     class main
     user root
     group root system

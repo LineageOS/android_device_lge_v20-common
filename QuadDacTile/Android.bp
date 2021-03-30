@@ -24,7 +24,7 @@ android_app {
     ],
 
     platform_apis: true,
-    product_specific: true,
+    system_ext_specific: true,
     certificate: "platform",
     privileged: true,
 
@@ -33,7 +33,7 @@ android_app {
 
 cc_binary {
     name: "quad_dac",
-    product_specific: true,
+    system_ext_specific: true,
     srcs: [
         "quad_dac/quaddac_service.cpp",
         "quad_dac/main.cpp",
