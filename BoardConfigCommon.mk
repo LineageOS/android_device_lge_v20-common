@@ -42,4 +42,4 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 24897388544
 BOARD_SEPOLICY_DIRS += $(DEVICE_COMMON_PATH)/sepolicy
 
 # inherit from the proprietary version
--include vendor/lge/v20-common/BoardConfigVendor.mk
+include vendor/lge/v20-common/BoardConfigVendor.mk
