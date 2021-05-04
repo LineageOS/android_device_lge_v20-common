@@ -2800,7 +2800,7 @@
 
     <path name="unprocessed-mic">
         <path name="unprocessed-handset-mic" />
-		<ctl name="DEC7 Volume" value="88" />
+        <ctl name="DEC7 Volume" value="111" />
     </path>
 
     <path name="unprocessed-dual-mic">
