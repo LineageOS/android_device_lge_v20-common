@@ -48,7 +48,7 @@ cc_binary {
         "libutils",
     ],
     static_libs: [
-        "quaddac_aidl_interface-ndk_platform",
+        "quaddac_aidl_interface-ndk",
     ],
 }
 
