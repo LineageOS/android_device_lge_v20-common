@@ -31,7 +31,7 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    AvoidAppsInCutoutOverlay
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
@@ -46,6 +46,10 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_PACKAGES += \
     libshim_bwfocus
+
+# Cutout
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.support_hide_display_cutout=true
 
 # Fingerprint
 PRODUCT_PACKAGES += \
