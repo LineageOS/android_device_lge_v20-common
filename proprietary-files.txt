@@ -1,4 +1,4 @@
-# Audio ACBD
+# Audio - ACBD
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
 vendor/etc/acdbdata/Global_cal.acdb
@@ -122,8 +122,8 @@ vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmpbase.so
 vendor/lib/libois_bu24333gwl.so
-vendor/lib/libois_lc898122.so
 vendor/lib/libois_bu24333gwl_s5k2p7.so
+vendor/lib/libois_lc898122.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
@@ -135,85 +135,62 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
-# Camera actuators
+# Camera - Actuators
 vendor/lib/libactuator_ak7371.so
 vendor/lib/libactuator_bu24333gwl.so
 vendor/lib/libactuator_bu24333gwl_s5k2p7.so
 
-# Camera AE/AWB
-vendor/lib/liblg_ae_parameter_4k_preview_imx219.so
-vendor/lib/liblg_ae_parameter_4k_preview_imx298.so
+# Camera - AE/AWB
 vendor/lib/liblg_ae_parameter_4k_preview_2P7.so
 vendor/lib/liblg_ae_parameter_4k_preview_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_4k_preview_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_4k_video_imx219.so
-vendor/lib/liblg_ae_parameter_4k_video_imx298.so
+vendor/lib/liblg_ae_parameter_4k_preview_imx219.so
+vendor/lib/liblg_ae_parameter_4k_preview_imx298.so
 vendor/lib/liblg_ae_parameter_4k_video_2P7.so
 vendor/lib/liblg_ae_parameter_4k_video_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_4k_video_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_default_preview_imx219.so
-vendor/lib/liblg_ae_parameter_default_preview_imx298.so
+vendor/lib/liblg_ae_parameter_4k_video_imx219.so
+vendor/lib/liblg_ae_parameter_4k_video_imx298.so
 vendor/lib/liblg_ae_parameter_default_preview_2P7.so
 vendor/lib/liblg_ae_parameter_default_preview_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_default_preview_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_default_video_imx219.so
-vendor/lib/liblg_ae_parameter_default_video_imx298.so
+vendor/lib/liblg_ae_parameter_default_preview_imx219.so
+vendor/lib/liblg_ae_parameter_default_preview_imx298.so
 vendor/lib/liblg_ae_parameter_default_video_2P7.so
 vendor/lib/liblg_ae_parameter_default_video_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_default_video_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_hdr_snapshot_imx298.so
+vendor/lib/liblg_ae_parameter_default_video_imx219.so
+vendor/lib/liblg_ae_parameter_default_video_imx298.so
 vendor/lib/liblg_ae_parameter_hdr_snapshot_2P7.so
-vendor/lib/liblg_ae_parameter_hdr_video_imx298.so
+vendor/lib/liblg_ae_parameter_hdr_snapshot_imx298.so
 vendor/lib/liblg_ae_parameter_hdr_video_2P7.so
+vendor/lib/liblg_ae_parameter_hdr_video_imx298.so
+vendor/lib/liblg_ae_parameter_hfr_120_2P7.so
 vendor/lib/liblg_ae_parameter_hfr_120_imx219.so
 vendor/lib/liblg_ae_parameter_hfr_120_imx298.so
-vendor/lib/liblg_ae_parameter_hfr_120_2P7.so
+vendor/lib/liblg_ae_parameter_hfr_60_2P7.so
 vendor/lib/liblg_ae_parameter_hfr_60_imx219.so
 vendor/lib/liblg_ae_parameter_hfr_60_imx298.so
-vendor/lib/liblg_ae_parameter_hfr_60_2P7.so
+vendor/lib/liblg_ae_parameter_hfr_90_2P7.so
 vendor/lib/liblg_ae_parameter_hfr_90_imx219.so
 vendor/lib/liblg_ae_parameter_hfr_90_imx298.so
-vendor/lib/liblg_ae_parameter_hfr_90_2P7.so
+vendor/lib/liblg_ae_parameter_panorama_2P7.so
 vendor/lib/liblg_ae_parameter_panorama_imx219.so
 vendor/lib/liblg_ae_parameter_panorama_imx298.so
-vendor/lib/liblg_ae_parameter_panorama_2P7.so
-vendor/lib/liblg_ae_parameter_raw_hdr_imx298.so
 vendor/lib/liblg_ae_parameter_raw_hdr_2P7.so
+vendor/lib/liblg_ae_parameter_raw_hdr_imx298.so
 vendor/lib/liblg_ae_parameter_vt_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_vt_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_zsl_preview_imx219.so
-vendor/lib/liblg_ae_parameter_zsl_preview_imx298.so
 vendor/lib/liblg_ae_parameter_zsl_preview_2P7.so
 vendor/lib/liblg_ae_parameter_zsl_preview_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_zsl_preview_hi553_lgit.so
-vendor/lib/liblg_ae_parameter_zsl_video_imx219.so
-vendor/lib/liblg_ae_parameter_zsl_video_imx298.so
+vendor/lib/liblg_ae_parameter_zsl_preview_imx219.so
+vendor/lib/liblg_ae_parameter_zsl_preview_imx298.so
 vendor/lib/liblg_ae_parameter_zsl_video_2P7.so
 vendor/lib/liblg_ae_parameter_zsl_video_hi553_cowell.so
 vendor/lib/liblg_ae_parameter_zsl_video_hi553_lgit.so
-vendor/lib/liblg_awb_parameter_imx219_4k_preview.so
-vendor/lib/liblg_awb_parameter_imx219_4k_video.so
-vendor/lib/liblg_awb_parameter_imx219_default_preview.so
-vendor/lib/liblg_awb_parameter_imx219_default_video.so
-vendor/lib/liblg_awb_parameter_imx219_hfr_120.so
-vendor/lib/liblg_awb_parameter_imx219_hfr_60.so
-vendor/lib/liblg_awb_parameter_imx219_hfr_90.so
-vendor/lib/liblg_awb_parameter_imx219_panorama.so
-vendor/lib/liblg_awb_parameter_imx219_zsl_preview.so
-vendor/lib/liblg_awb_parameter_imx219_zsl_video.so
-vendor/lib/liblg_awb_parameter_imx298_4k_preview.so
-vendor/lib/liblg_awb_parameter_imx298_4k_video.so
-vendor/lib/liblg_awb_parameter_imx298_default_preview.so
-vendor/lib/liblg_awb_parameter_imx298_default_video.so
-vendor/lib/liblg_awb_parameter_imx298_hdr_snapshot.so
-vendor/lib/liblg_awb_parameter_imx298_hdr_video.so
-vendor/lib/liblg_awb_parameter_imx298_hfr_120.so
-vendor/lib/liblg_awb_parameter_imx298_hfr_60.so
-vendor/lib/liblg_awb_parameter_imx298_hfr_90.so
-vendor/lib/liblg_awb_parameter_imx298_panorama.so
-vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so
-vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so
-vendor/lib/liblg_awb_parameter_imx298_zsl_video.so
+vendor/lib/liblg_ae_parameter_zsl_video_imx219.so
+vendor/lib/liblg_ae_parameter_zsl_video_imx298.so
 vendor/lib/liblg_awb_parameter_2P7_4k_preview.so
 vendor/lib/liblg_awb_parameter_2P7_4k_video.so
 vendor/lib/liblg_awb_parameter_2P7_default_preview.so
@@ -253,8 +230,31 @@ vendor/lib/liblg_awb_parameter_hi553_lgit_panorama.so
 vendor/lib/liblg_awb_parameter_hi553_lgit_raw_hdr.so
 vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_preview.so
 vendor/lib/liblg_awb_parameter_hi553_lgit_zsl_video.so
+vendor/lib/liblg_awb_parameter_imx219_4k_preview.so
+vendor/lib/liblg_awb_parameter_imx219_4k_video.so
+vendor/lib/liblg_awb_parameter_imx219_default_preview.so
+vendor/lib/liblg_awb_parameter_imx219_default_video.so
+vendor/lib/liblg_awb_parameter_imx219_hfr_120.so
+vendor/lib/liblg_awb_parameter_imx219_hfr_60.so
+vendor/lib/liblg_awb_parameter_imx219_hfr_90.so
+vendor/lib/liblg_awb_parameter_imx219_panorama.so
+vendor/lib/liblg_awb_parameter_imx219_zsl_preview.so
+vendor/lib/liblg_awb_parameter_imx219_zsl_video.so
+vendor/lib/liblg_awb_parameter_imx298_4k_preview.so
+vendor/lib/liblg_awb_parameter_imx298_4k_video.so
+vendor/lib/liblg_awb_parameter_imx298_default_preview.so
+vendor/lib/liblg_awb_parameter_imx298_default_video.so
+vendor/lib/liblg_awb_parameter_imx298_hdr_snapshot.so
+vendor/lib/liblg_awb_parameter_imx298_hdr_video.so
+vendor/lib/liblg_awb_parameter_imx298_hfr_120.so
+vendor/lib/liblg_awb_parameter_imx298_hfr_60.so
+vendor/lib/liblg_awb_parameter_imx298_hfr_90.so
+vendor/lib/liblg_awb_parameter_imx298_panorama.so
+vendor/lib/liblg_awb_parameter_imx298_raw_hdr.so
+vendor/lib/liblg_awb_parameter_imx298_zsl_preview.so
+vendor/lib/liblg_awb_parameter_imx298_zsl_video.so
 
-# Camera chromatix
+# Camera - Chromatix
 vendor/lib/libchromatix_csidtg_common.so
 vendor/lib/libchromatix_csidtg_cpp_preview.so
 vendor/lib/libchromatix_csidtg_postproc.so
@@ -366,7 +366,7 @@ vendor/lib/libchromatix_s5k2p7_zsl_preview.so
 vendor/lib/libchromatix_s5k2p7_zsl_preview_wide.so
 vendor/lib/libchromatix_s5k2p7_zsl_video.so
 
-# Camera configs
+# Camera - Configs
 etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
 etc/camera/hi553_chromatix.xml:vendor/etc/camera/hi553_chromatix.xml
 etc/camera/imx219_chromatix.xml:vendor/etc/camera/imx219_chromatix.xml
