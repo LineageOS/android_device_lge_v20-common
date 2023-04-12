@@ -12,5 +12,8 @@ allow quaddac self:capability sys_admin;
 allow quaddac vendor_configs_file:file mounton;
 allow quaddac labeledfs:filesystem unmount;
 
+# Set ess enable property
+set_prop(quaddac, persist_audio_hifi_enabled_prop)
+
 # Restart service
 set_prop(quaddac, ctl_default_prop)

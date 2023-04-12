@@ -1,0 +1,2 @@
+system_public_prop(persist_audio_hifi_enabled_prop)
+system_public_prop(ro_audio_ess_supported_prop)
