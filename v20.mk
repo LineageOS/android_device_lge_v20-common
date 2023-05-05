@@ -72,6 +72,10 @@ PRODUCT_PACKAGES += \
     quad_dac \
     QuadDacTile
 
+# Security Patch Level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2019-05-01
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_elsa.conf:system/etc/sensors/sensor_def_common.conf
