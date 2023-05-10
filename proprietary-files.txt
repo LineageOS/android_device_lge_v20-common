@@ -377,7 +377,7 @@ system/etc/camera/imx298_chromatix_LG.xml:vendor/etc/camera/imx298_chromatix_LG.
 system/etc/camera/s5k2p7_chromatix.xml:vendor/etc/camera/s5k2p7_chromatix.xml
 
 # Fingerprint - from elsa_nao_us-user 7.0 NRD90M 180331701b134 release-keys
-system/bin/fpc_early_loader:vendor/bin/fpc_early_loader
+system/bin/fpc_early_loader:vendor/bin/fpc_early_loader|219ce49b5106280ae500cd3a4091df242bc5b420
 -system/lib/hw/fingerprint.msm8996.so:vendor/lib/hw/fingerprint.msm8996.so|497445a4eecb42753ce46c315246c22dbd9f24e1
 system/lib/lib_fpc_tac_shared.so:vendor/lib/lib_fpc_tac_shared.so|44afbbca95a582c1006fcd60e76145917bacd88e
 system/lib/libfpfactory.so:vendor/lib/libfpfactory.so|c658512c2742a19a6cf9bd4e454be079c4aefd9e
