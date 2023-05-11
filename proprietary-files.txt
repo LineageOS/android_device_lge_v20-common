@@ -1,5 +1,5 @@
-##  are from from elsa_nao_us-user 8.0.0 OPR1.170623.032 183241436cd40 release-keys
 ### All blobs from this list, unless pinned and noted as otherwise,
+### are from from elsa_nao_us-user 8.0.0 OPR1.170623.032 183241436cd40 release-keys
 
 # Audio - ACBD
 vendor/etc/acdbdata/Bluetooth_cal.acdb
