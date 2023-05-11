@@ -1,5 +1,5 @@
-### All blobs from this list, unless pinned and noted as otherwise,
 ##  are from from elsa_nao_us-user 8.0.0 OPR1.170623.032 183241436cd40 release-keys
+### All blobs from this list, unless pinned and noted as otherwise,
 
 # Audio - ACBD
 vendor/etc/acdbdata/Bluetooth_cal.acdb
@@ -11,20 +11,23 @@ vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-vendor/bin/mm-qcamera-app
-vendor/bin/mm-qcamera-daemon
-vendor/lib/hw/camera.msm8996.so
 system/lib/libarcsoft_beauty_shot.so:vendor/lib/libarcsoft_beauty_shot.so
 system/lib/libarcsoft_object_tracking.so:vendor/lib/libarcsoft_object_tracking.so
 system/lib/libbwfocuspeaking.so:vendor/lib/libbwfocuspeaking.so
 system/lib/libfilm_emulation.so:vendor/lib/libfilm_emulation.so
+system/lib/liblghdri.so:vendor/lib/liblghdri.so
+system/lib/libmorpho_image_stab31.so:vendor/lib/libmorpho_image_stab31.so
+system/lib/libmorpho_superzoom.so:vendor/lib/libmorpho_superzoom.so
+system/lib/libmpbase.so:vendor/lib/libmpbase.so
+vendor/bin/mm-qcamera-app
+vendor/bin/mm-qcamera-daemon
+vendor/lib/hw/camera.msm8996.so
 vendor/lib/libflash_pmic.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
 vendor/lib/liblgae_main.so
 vendor/lib/liblgawb_main.so
-system/lib/liblghdri.so:vendor/lib/liblghdri.so
 vendor/lib/libmm-qcamera.so
 vendor/lib/libmmcamera2_c2d_module.so
 vendor/lib/libmmcamera2_cpp_module.so
@@ -121,9 +124,6 @@ vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
-system/lib/libmorpho_image_stab31.so:vendor/lib/libmorpho_image_stab31.so
-system/lib/libmorpho_superzoom.so:vendor/lib/libmorpho_superzoom.so
-system/lib/libmpbase.so:vendor/lib/libmpbase.so
 vendor/lib/libois_bu24333gwl.so
 vendor/lib/libois_bu24333gwl_s5k2p7.so
 vendor/lib/libois_lc898122.so
