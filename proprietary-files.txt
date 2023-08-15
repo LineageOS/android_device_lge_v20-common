@@ -10,6 +10,9 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
+# Bluetooth - from elsa_att_us-user 8.0.0 OPR1.170623.032 181871124f959 release-keys
+vendor/firmware/BCM4358A3.hcd:vendor/firmware/BCM43xx.hcd|b8e367b5d02a19920716f832d59b061add049d88
+
 # Camera
 system/lib/libarcsoft_beauty_shot.so:vendor/lib/libarcsoft_beauty_shot.so
 system/lib/libarcsoft_object_tracking.so:vendor/lib/libarcsoft_object_tracking.so
