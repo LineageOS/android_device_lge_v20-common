@@ -1,6 +1,0 @@
-sysprop_library {
-    name: "EssProperties",
-    srcs: ["props/ess.sysprop"],
-    property_owner: "Platform",
-    vendor_available: true,
-}
