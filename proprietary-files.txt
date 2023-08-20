@@ -10,9 +10,6 @@ vendor/etc/acdbdata/Hdmi_cal.acdb
 vendor/etc/acdbdata/Headset_cal.acdb
 vendor/etc/acdbdata/Speaker_cal.acdb
 
-# Bluetooth
-vendor/firmware/BCM4358A3_001.004.015.0095.0168_KR_ORC.HCD:vendor/firmware/BCM43xx.hcd
-
 # Camera
 system/lib/libarcsoft_beauty_shot.so:vendor/lib/libarcsoft_beauty_shot.so
 system/lib/libarcsoft_object_tracking.so:vendor/lib/libarcsoft_object_tracking.so
