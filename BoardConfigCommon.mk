@@ -20,6 +20,10 @@ DEVICE_COMMON_PATH := device/lge/v20-common
 # inherit from common msm8996
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
+# Audio
+USE_DEVICE_SPECIFIC_AUDIO := true
+DEVICE_SPECIFIC_AUDIO_PATH := hardware/lge/audio/msm8996
+
 # Camera
 TARGET_LD_SHIM_LIBS += \
     /system/vendor/lib/libbwfocuspeaking.so|/system/vendor/lib/libshim_bwfocus.so
