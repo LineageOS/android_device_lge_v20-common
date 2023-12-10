@@ -1,0 +1,5 @@
+#set_prop(hal_audio_default, vendor_dac_control_prop);
+allow hal_audio_default audio_prop:property_service { set };
+allow hal_audio_default property_socket:sock_file write;
+allow hal_audio_default init:unix_stream_socket connectto;
+allow hal_audio_default vendor_audio_prop:property_service { set };

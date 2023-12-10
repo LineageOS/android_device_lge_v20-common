@@ -1,0 +1,2 @@
+allow init hal_dac_control_hwservice:hwservice_manager { add find };
+allow init sysfs_dac:{lnk_file file} { rw_file_perms setattr };
