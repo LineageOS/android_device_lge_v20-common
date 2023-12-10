@@ -5,15 +5,11 @@ init_daemon_domain(quaddac)
 
 binder_use(quaddac)
 binder_service(quaddac)
-add_service(quaddac, quaddac_service)
 
 # Mount
 allow quaddac self:capability sys_admin;
 allow quaddac vendor_configs_file:file mounton;
 allow quaddac labeledfs:filesystem unmount;
-
-# Set ess enable property
-set_prop(quaddac, persist_audio_hifi_enabled_prop)
 
 # Restart service
 set_prop(quaddac, ctl_default_prop)
