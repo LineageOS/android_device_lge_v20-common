@@ -2,4 +2,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service.elsa		u:object_r:hal_light_default_exec:s0
 
 # Quad DAC
-/(system_ext|system/system_ext)/bin/quad_dac    u:object_r:quaddac_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.lge\.hardware\.audio\.dac\.control@[1-2]\.0-service.*              u:object_r:hal_dac_control_default_exec:s0
+
+# Sysfs props
+/sys/kernel/es9218_dac(/.*)?      u:object_r:sysfs_dac:s0

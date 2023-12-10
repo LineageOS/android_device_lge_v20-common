@@ -1,0 +1,2 @@
+# Sysfs
+type sysfs_dac, sysfs_type, fs_type;
