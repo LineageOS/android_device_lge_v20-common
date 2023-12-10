@@ -1,0 +1,2 @@
+allow hal_audio_default audio_prop:property_service set;
+allow hal_audio_default vendor_audio_prop:property_service set;
