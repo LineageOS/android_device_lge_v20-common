@@ -1,0 +1,1 @@
+type hal_dac_control_hwservice, hwservice_manager_type;
