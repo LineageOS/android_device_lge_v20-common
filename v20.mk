@@ -55,10 +55,15 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # DAC
 PRODUCT_PACKAGES += \
-    QuadDACPanel
+    QuadDACPanel \
+    vendor.lge.hardware.audio.dac.control@2.0-service
 
 PRODUCT_PRODUCT_PROPERTIES += \
+<<<<<<< PATCH SET (6900bb v20-common: Adjust DAC packages and properties for the new i)
+    persist.vendor.audio.ess.supported=true
+=======
     ro.audio.ess.supported=true
+>>>>>>> BASE      (0069c7 v20-common: audio: Update mixer-paths-tasha based on stock)
 
 # Fingerprint
 PRODUCT_PACKAGES += \
