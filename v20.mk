@@ -55,11 +55,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # DAC
 PRODUCT_PACKAGES += \
-    QuadDACPanel
+    QuadDACPanel \
+    vendor.lge.hardware.audio.dac.control@2.0-service
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.audio.ess.supported=true
-
+    persist.vendor.audio.ess.supported=true
 
 # Fingerprint
 PRODUCT_PACKAGES += \
