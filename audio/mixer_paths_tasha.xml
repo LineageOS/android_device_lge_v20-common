@@ -3099,47 +3099,8 @@
     </path>
 
     <path name="ess-headphones-hifi">
-    	<path name="ess-hifi" />
         <ctl name="Es9018 Master Volume" value="0" />
         <ctl name="Es9018 AVC Volume" value="1" />
-        <ctl name="Es9018 HEADSET TYPE" value="1" />
-    </path>
-    
-    <path name="ess-headphones-hifi-advanced">
-       	<path name="headphones-advanced" />
-    	<path name="ess-hifi" />
-    	<ctl name="Es9018 Master Volume" value="0" />
-        <ctl name="Es9018 AVC Volume" value="1" />
-        <ctl name="Es9018 HEADSET TYPE" value="2" />
-    </path>
-    
-    <path name="ess-headphones-hifi-aux">
-      	<path name="headphones-aux" />
-    	<path name="ess-hifi" />
-    	<ctl name="Es9018 Master Volume" value="0" />
-        <ctl name="Es9018 AVC Volume" value="7" />
-        <ctl name="Es9018 HEADSET TYPE" value="3" />
-    </path>
-    
-    <path name="headphones-advanced">
-        <path name="headphones" />
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
-        <ctl name="RX1 Mix Digital Volume" value="79" />
-        <ctl name="RX2 Mix Digital Volume" value="79" />
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
-    </path>
-
-    <path name="headphones-aux">
-        <path name="headphones" />
-        <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
-        <ctl name="RX1 Mix Digital Volume" value="90" />
-        <ctl name="RX2 Mix Digital Volume" value="90" />
-        <ctl name="HPHL Volume" value="20" />
-        <ctl name="HPHR Volume" value="20" />
-    </path>
-    
-    <path name="ess-hifi">
         <ctl name="Es9218 Bypass" value="1" />
         <ctl name="RX HPH Mode" value="CLS_H_HIFI" />
         <ctl name="SLIM RX2 MUX" value="AIF4_PB" />
