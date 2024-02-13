@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e703160d_9e89060e",
+        "filename": "sepolicy/system_app.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-13T17:27:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "40d93ded_51153144",
+      "range": {
+        "startLine": 3,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 30
+      },
+      "revId": "13e3e60551886d0660b61b7cdc3aae3d1f215b6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "f64d8b91_f934fed5",
@@ -37,6 +61,30 @@
       "writtenOn": "2024-02-13T05:32:51Z",
       "side": 1,
       "message": "same, track and label.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 4,
+        "endChar": 46
+      },
+      "revId": "13e3e60551886d0660b61b7cdc3aae3d1f215b6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f89b22f_eb5efb1b",
+        "filename": "sepolicy/system_app.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2024-02-13T17:27:19Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f64d8b91_f934fed5",
       "range": {
         "startLine": 4,
         "startChar": 0,
