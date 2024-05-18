@@ -21,8 +21,8 @@ DEVICE_COMMON_PATH := device/lge/v20-common
 -include device/lge/msm8996-common/BoardConfigCommon.mk
 
 # Audio
-USE_DEVICE_SPECIFIC_AUDIO := true
-DEVICE_SPECIFIC_AUDIO_PATH := hardware/lge/audio/msm8996
+AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := true
+TARGET_DAC_PLUGIN_INCLUDE_DIR := $(DEVICE_PATH)/include
 
 # Camera
 TARGET_LD_SHIM_LIBS += \
