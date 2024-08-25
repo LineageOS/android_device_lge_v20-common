@@ -1,6 +1,9 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
 ### are from from elsa_kt_kr-user 9 PKQ1.190522.001 20192161159c5 release-keys
 
+# Current blobs with ELF checks disabled:
+# libmmcamera2_mct.so, libmmcamera_faceproc.so, libmmcamera_faceproc2.so are unable resolve the following symbol: __aeabi_uldivmod (32-bit)
+
 # Audio - ACBD
 vendor/etc/acdbdata/Bluetooth_cal.acdb
 vendor/etc/acdbdata/General_cal.acdb
@@ -39,7 +42,7 @@ vendor/lib/libmmcamera2_iface_modules.so
 vendor/lib/libmmcamera2_imglib_modules.so
 vendor/lib/libmmcamera2_is.so
 vendor/lib/libmmcamera2_isp_modules.so
-vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_mct.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera2_mct_shimlayer.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera2_pproc_modules.so
@@ -56,8 +59,8 @@ vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
-vendor/lib/libmmcamera_faceproc.so
-vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_faceproc.so;DISABLE_CHECKELF
+vendor/lib/libmmcamera_faceproc2.so;DISABLE_CHECKELF
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hi553.so
 vendor/lib/libmmcamera_hvx_add_constant.so
@@ -544,11 +547,11 @@ system/etc/camera/s5k2p7_chromatix.xml:vendor/etc/camera/s5k2p7_chromatix.xml
 system/bin/fpc_early_loader:vendor/bin/fpc_early_loader|219ce49b5106280ae500cd3a4091df242bc5b420
 system/lib/lib_fpc_tac_shared.so:vendor/lib/lib_fpc_tac_shared.so|44afbbca95a582c1006fcd60e76145917bacd88e
 system/lib/libfpfactory.so:vendor/lib/libfpfactory.so|c658512c2742a19a6cf9bd4e454be079c4aefd9e
-system/lib/libfpfactory_jni.so:vendor/lib/libfpfactory_jni.so|53563469bddc35a6195b5fda460882af426da097
+system/lib/libfpfactory_jni.so:vendor/lib/libfpfactory_jni.so;DISABLE_CHECKELF;DISABLE_DEPS|53563469bddc35a6195b5fda460882af426da097
 -system/lib64/hw/fingerprint.msm8996.so:vendor/lib64/hw/fingerprint.msm8996.so|9838744c7b46ec514375c326bae0f038cb64dce1
 system/lib64/lib_fpc_tac_shared.so:vendor/lib64/lib_fpc_tac_shared.so|50ae291a49bc485f924efcbb22f953f07f63b13a
 system/lib64/libfpfactory.so:vendor/lib64/libfpfactory.so|4bb3874e7355a476dd92d3b9e7cb5355e29e2f95
-system/lib64/libfpfactory_jni.so:vendor/lib64/libfpfactory_jni.so|24dcf224b2f381f1237a80d51354a0f98a268870
+system/lib64/libfpfactory_jni.so:vendor/lib64/libfpfactory_jni.so;DISABLE_CHECKELF;DISABLE_DEPS|24dcf224b2f381f1237a80d51354a0f98a268870
 
 # OIS firmware
 vendor/etc/camera/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin:vendor/firmware/bu24234_dl_program_Alice_LGITAct_ICG1020S_rev13_S_data1_0x4E.bin
