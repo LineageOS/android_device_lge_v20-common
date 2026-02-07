@@ -22,9 +22,7 @@ system/lib/libmpbase.so:vendor/lib/libmpbase.so
 vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 vendor/lib/hw/camera.msm8996.so
-vendor/lib/libchromaflash.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libhdr_tm.so
 vendor/lib/libjpeg_turbo.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -49,7 +47,6 @@ vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_brcb032gwz_eeprom.so
 vendor/lib/libmmcamera_brcb032gwz_s5k2p7_eeprom.so
-vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
@@ -118,13 +115,11 @@ vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
-vendor/lib/libmmcamera_quadracfa.so
 vendor/lib/libmmcamera_s5k2p7.so
 vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libmmjpeg.so
