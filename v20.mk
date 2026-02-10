@@ -53,16 +53,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_hide_display_cutout=true
 
-# DAC
-PRODUCT_PACKAGES += \
-    audio_amplifier.lge \
-    QuadDACPanel \
-    vendor.lge.hardware.audio.dac.control@2.0-service
-
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.vendor.audio.ess.supported=true \
-    ro.hardware.audio_amplifier=lge
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service
